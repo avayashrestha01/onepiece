@@ -1,1 +1,34 @@
+:root, html[data-theme="luffy"] {
+  --primary-color: #D70000;
+  --secondary-color: #FFCE00;
+  --accent-color: #1A75FF;
+  --bg-color: #FFFFFF;
+  --text-color: #111111;
+}
 
+html[data-theme="zoro"] {
+  --primary-color: #0B6623;
+  --secondary-color: #1B4D3E;
+  --accent-color: #C5A059;
+  --bg-color: #F4F9F4;
+  --text-color: #0F2015;
+}
+
+html[data-theme="sanji"] {
+  --primary-color: #0056B3;
+  --secondary-color: #1A2536;
+  --accent-color: #FFE600;
+  --bg-color: #F8FAFC;
+  --text-color: #0F172A;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: sans-serif;
+}
+
+h1 {
+  color: var(--primary-color);
+  border-bottom: 4px solid var(--secondary-color);
+}
