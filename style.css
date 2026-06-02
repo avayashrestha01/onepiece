@@ -176,7 +176,8 @@ section .firstBounty img{
 
 .chars img{
   height: 200px;
-  width: 200px;
+  /* width: 200px; */
+  image-rendering: crisp-edges;
   border-radius: 50%;
   background-color: var(--secondary-color);
   padding: 0;
@@ -190,4 +191,49 @@ section .firstBounty img{
 
 .charDet h2{
   justify-self: center;
+}
+
+.shipContainer{
+  margin: 30px 0;
+}
+
+.ship{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px;
+  border-radius: 24px;
+  background-color: var(--primary-color);
+  margin: 30px 30px;
+  width: 60%;
+  justify-self: center;
+  justify-content: space-around;
+}
+
+@media (max-width: 800px) {
+  .ship{
+    width: 90%;
+  }
+}
+
+.ship img{
+  height: 200px;
+  width: 200px;
+  image-rendering: crisp-edges;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  padding: 0;
+  border: none;
+}
+
+.ship .shipDet{
+  color: var(--text-color);
+  margin-top: 20px;
+}
+
+.shipDet h2{
+  justify-self: center;
+}
+
+.ship, .chars{
+  box-shadow: 10px 10px 20px black;
 }
