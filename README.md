@@ -12,5 +12,24 @@
 
 
 ## Overview
-<!---Image Container--->
+- Different Themes (Luffy/ Zoro/ Sanji)
+
+<img src="ss/themes.png" style="border-radius: 4px;"></img>
+
+- Luffy Theme
+
+<img src="ss/luffy.png" style="border-radius: 24px;"></img>
+
+- Zoro Theme
+
+<img src="ss/zoro.png" style="border-radius: 24px;"></img>
+
+- Sanji Theme
+
+<img src="ss/sanji.png" style="border-radius: 24px;"></img>
+
+- First bounty of All characters
+
+<img src="ss/bounty.png" style="border-radius: 24px;"></img>
+
 
