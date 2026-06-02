@@ -1,24 +1,25 @@
+/* Same accent for all - ultra visible */
 :root, html[data-theme="luffy"] {
   --primary-color: #D70000;
   --secondary-color: #FFCE00;
-  --accent-color: #1A75FF;
-  --bg-color: #FFF0F0;
+  --accent-color: #FF6B35;       /* bright orange - universal pop color */
+  --bg-color: #FFFFFF;
   --text-color: #111111;
 }
 
 html[data-theme="zoro"] {
   --primary-color: #0B6623;
   --secondary-color: #1B4D3E;
-  --accent-color: #C5A059;
-  --bg-color: #DEEEDE;
+  --accent-color: #FF6B35;       /* same bright orange */
+  --bg-color: #F4F9F4;
   --text-color: #0F2015;
 }
 
 html[data-theme="sanji"] {
   --primary-color: #0056B3;
   --secondary-color: #1A2536;
-  --accent-color: #FFE600;
-  --bg-color: #EBF3FE;
+  --accent-color: #FF6B35;       /* same bright orange */
+  --bg-color: #F8FAFC;
   --text-color: #0F172A;
 }
 
@@ -35,6 +36,10 @@ body {
   font-family: sans-serif;
 }
 
+::-webkit-scrollbar{
+  display: none;
+}
+
 header{
   padding: 16px;
   min-width: 80%;
@@ -44,11 +49,13 @@ header{
   background-color: var(--secondary-color);
   top: 0;
   position: sticky;
+  gap: 20px;
 }
 
 header nav ul{
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   justify-content: space-around;
 }
@@ -94,10 +101,25 @@ header select{
 
 section{
   height: 80vh;
+  margin: 20px;
   margin-top: 60px;
   color: var(--text-color);
 }
 
 section h1{
   color: var(--accent-color);
+  justify-self: center;
 }
+
+section p{
+  color: var(--text-color);
+  font-size: 1.2rem;
+  width: 40%;
+}
+
+@media (max-width:900px){
+  section p{
+    width: 60%;
+  }
+}
+
