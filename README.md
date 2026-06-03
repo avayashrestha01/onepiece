@@ -1,7 +1,7 @@
 > # OnePiece Fan Website
 > A One Piece fan **Website**. This website doesn't fall in **piracy** catrgories.
 
-https://img.shields.io/badge/github-repo-blue?logo=github
+![Static Badge](https://img.shields.io/badge/:badgeContent)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/avayashrestha01/onepiece)
 
 
