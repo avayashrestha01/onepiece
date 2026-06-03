@@ -3,17 +3,6 @@
 
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/avayashrestha01/onepiece)
 
-<p align="left">
-  <a href="https://opensource.org">
-    <img src="https://shields.io" alt="MIT License">
-  </a>
-  <img src="https://shields.io" alt="HTML5">
-  <img src="https://shields.io" alt="CSS3">
-  <img src="https://shields.io" alt="JavaScript">
-</p>
-
-
-
 
 ## Technology used:
 - HTML - Basic Website **Structure**
