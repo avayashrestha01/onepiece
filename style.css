@@ -23,6 +23,10 @@ html[data-theme="sanji"] {
   --text-color: #0F172A;
 }
 
+html{
+  scroll-padding-top: 80px;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -34,7 +38,6 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: sans-serif;
-  scroll-padding-top: 80px;
 }
 
 ::-webkit-scrollbar{
