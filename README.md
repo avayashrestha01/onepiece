@@ -1,5 +1,6 @@
 > # OnePiece Fan Website
 > A One Piece fan **Website**. This website doesn't fall in **piracy** catrgories.
+
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/avayashrestha01/onepiece)
 
 ## Technology used:
