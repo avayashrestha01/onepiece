@@ -2,7 +2,16 @@
 > A One Piece fan **Website**. This website doesn't fall in **piracy** catrgories.
 
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/avayashrestha01/onepiece)
-<img src="https://shields.io" alt="HTML5">
+
+<p align="left">
+  <a href="https://opensource.org">
+    <img src="https://shields.io" alt="MIT License">
+  </a>
+  <img src="https://shields.io" alt="HTML5">
+  <img src="https://shields.io" alt="CSS3">
+  <img src="https://shields.io" alt="JavaScript">
+</p>
+
 
 
 
