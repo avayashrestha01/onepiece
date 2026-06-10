@@ -217,6 +217,12 @@ section h1{
   color: var(--text-color);
 }
 
+.button:active{
+  background-color: var(--text-color);
+  color: var(--primary-color);
+  border: var(--text-color) 4px solid;
+}
+
 section p{
   color: var(--text-color);
   font-size: 1.2rem;
