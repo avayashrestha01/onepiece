@@ -30,7 +30,7 @@ html[data-theme="brook"], div[data-theme="brook"] {
   --text-color: #1E1A2F;
 }
 
-html[data-theme="usopp"], div[data-theme="usopp"] {
+div[data-theme="usopp"] {
   --primary-color: #8B5E3C;
   --secondary-color: #C9A87C;
   --accent-color: #FF6B35;
@@ -70,7 +70,7 @@ div[data-theme="franky"] {
   --text-color: #0A1C2A;
 }
 
-div[data-theme="jinbe"] {
+div[data-theme="jinbei"] {
   --primary-color: #1E6B8F;
   --secondary-color: #0E4A66;
   --accent-color: #FF6B35;
@@ -94,16 +94,18 @@ div[data-theme="sunny"] {
   --text-color: #2C2B1F;
 }
 
-html{
-  scroll-padding-top: 80px;
-}
-
 *{
   margin: 0;
   padding: 0;
   border-style: none;
   transition: 0.3s ease all;
 }
+
+html{
+  scroll-padding-top: 80px;
+  scroll-behavior: smooth;
+}
+
 
 body {
   background-color: var(--bg-color);
@@ -194,6 +196,25 @@ section h1{
   justify-self: center;
 }
 
+#home h1{
+  font-size: 50px;
+}
+
+.button{
+  margin-top: 40px;
+  background-color: var(--primary-color);
+  border: var(--primary-color) 4px solid;
+  padding: 20px 40px;
+  font-size: 30px;
+  border-radius: 24px;
+  justify-self: center;
+  display: block;
+}
+
+.button:hover{
+  background-color: transparent;
+}
+
 section p{
   color: var(--text-color);
   font-size: 1.2rem;
@@ -254,7 +275,7 @@ section .firstBounty img{
 
 .chars img{
   height: 200px;
-  /* width: 200px; */
+  width: 200px;
   image-rendering: crisp-edges;
   border-radius: 50%;
   background-color: var(--secondary-color);
@@ -314,4 +335,16 @@ section .firstBounty img{
 
 .ship, .chars{
   box-shadow: 10px 10px 20px black;
+}
+
+@media (max-width: 500px){
+  .chars, .ship{
+    flex-direction: column;
+  }
+
+  .chars img, .ship img{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
 }
