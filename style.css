@@ -1,26 +1,97 @@
-/* Same accent for all - ultra visible */
-:root, html[data-theme="luffy"] {
+:root, html[data-theme="luffy"], div[data-theme="luffy"] {
   --primary-color: #D70000;
   --secondary-color: #FFCE00;
-  --accent-color: #FF6B35;       /* bright orange - universal pop color */
+  --accent-color: #FF6B35;
   --bg-color: #FFFFFF;
   --text-color: #111111;
 }
 
-html[data-theme="zoro"] {
+html[data-theme="zoro"], div[data-theme="zoro"] {
   --primary-color: #0B6623;
   --secondary-color: #1B4D3E;
-  --accent-color: #FF6B35;       /* same bright orange */
+  --accent-color: #FF6B35;
   --bg-color: #F4F9F4;
   --text-color: #0F2015;
 }
 
-html[data-theme="sanji"] {
+html[data-theme="sanji"], div[data-theme="sanji"] {
   --primary-color: #0056B3;
   --secondary-color: #1A2536;
-  --accent-color: #FF6B35;       /* same bright orange */
+  --accent-color: #FF6B35;
   --bg-color: #F8FAFC;
   --text-color: #0F172A;
+}
+
+html[data-theme="brook"], div[data-theme="brook"] {
+  --primary-color: #4A2F5B;
+  --secondary-color: #2A1B36;
+  --accent-color: #FF6B35;
+  --bg-color: #F9F6F0;
+  --text-color: #1E1A2F;
+}
+
+html[data-theme="usopp"], div[data-theme="usopp"] {
+  --primary-color: #8B5E3C;
+  --secondary-color: #C9A87C;
+  --accent-color: #FF6B35;
+  --bg-color: #FDF8ED;
+  --text-color: #2C2418;
+}
+
+div[data-theme="nami"] {
+  --primary-color: #FF8C42;
+  --secondary-color: #F4A261;
+  --accent-color: #FF6B35;
+  --bg-color: #FFFDF7;
+  --text-color: #2D1B0E;
+}
+
+div[data-theme="chopper"] {
+  --primary-color: #FF91AF;
+  --secondary-color: #FFB7C5;
+  --accent-color: #FF6B35;
+  --bg-color: #FFF9FB;
+  --text-color: #4A2A2A;
+}
+
+div[data-theme="robin"] {
+  --primary-color: #6A1B4D;
+  --secondary-color: #9B2D6B;
+  --accent-color: #FF6B35;
+  --bg-color: #FAF5F0;
+  --text-color: #2E1A2C;
+}
+
+div[data-theme="franky"] {
+  --primary-color: #0066CC;
+  --secondary-color: #00A3FF;
+  --accent-color: #FF6B35;
+  --bg-color: #F0F4F8;
+  --text-color: #0A1C2A;
+}
+
+div[data-theme="jinbe"] {
+  --primary-color: #1E6B8F;
+  --secondary-color: #0E4A66;
+  --accent-color: #FF6B35;
+  --bg-color: #F2F6F5;
+  --text-color: #0A1C1E;
+}
+
+div[data-theme="merry"] {
+  --primary-color: #C68B5E;
+  --secondary-color: #E8C39E;
+  --accent-color: #FF6B35;
+  --bg-color: #FFF8F0;
+  --text-color: #3A2618;
+}
+
+div[data-theme="sunny"] {
+  --primary-color: #E87C20;
+  --secondary-color: #F5B041;
+  --accent-color: #FF6B35;
+  --bg-color: #FEF9E6;
+  --text-color: #2C2B1F;
 }
 
 html{
