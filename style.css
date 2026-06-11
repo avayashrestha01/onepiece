@@ -263,6 +263,7 @@ section .firstBounty img{
 section .firstBounty:hover{
   background-color: var(--text-color);
   scale: 1.1;
+  box-shadow: 10px 10px 10px var(--text-color);
 }
 
 section .firstBounty:hover h2{
