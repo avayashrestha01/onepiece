@@ -247,7 +247,7 @@ section .firstBounty{
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 10px 10px 20px black;
+  box-shadow: 10px 10px 20px black, inset 10px 10px 10px white;
 }
 
 section .firstBounty h2{
@@ -258,6 +258,15 @@ section .firstBounty img{
   height: 400px;
   border-radius: 8px;
   margin-top: 12px;
+}
+
+section .firstBounty:hover{
+  background-color: var(--text-color);
+  scale: 1.1;
+}
+
+section .firstBounty:hover h2{
+  color: var(--primary-color);
 }
 
 @media (max-width:900px){
