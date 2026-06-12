@@ -391,3 +391,33 @@ section .firstBounty:hover h2{
     rotate: 359deg;
   }
 }
+
+.musicCont{
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: center;
+  align-self: center;
+  padding: 30px;
+  display: block;
+  background-color: var(--primary-color);
+   border-radius: 24px;
+}
+
+.musicCont .imageCont{
+  background-color: var(--secondary-color);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px var(--text-color), inset 10px 10px 10px white;
+  margin: 30px auto;
+}
+
+.musicCont img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.rotate{
+  animation: hoverRotate 3.6s infinite linear;
+}
