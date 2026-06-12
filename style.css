@@ -379,7 +379,7 @@ section .firstBounty:hover h2{
 }
 
 .chars:hover img, .ship img:hover{
-  animation: hoverRotate 0.2s linear;
+  animation: hoverRotate 1.8s reverse;
 }
 
 @keyframes hoverRotate{
@@ -388,6 +388,6 @@ section .firstBounty:hover h2{
   }
 
   to{
-    rotate: 180deg;
+    rotate: 359deg;
   }
 }
