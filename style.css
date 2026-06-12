@@ -378,8 +378,8 @@ section .firstBounty:hover h2{
   width: 200px;
 }
 
-.chars:hover img, .ship img:hover{
-  animation: hoverRotate 1.8s reverse;
+.chars img:hover, .ship img:hover{
+  animation: hoverRotate 0.3s linear;
 }
 
 @keyframes hoverRotate{
