@@ -5,14 +5,25 @@ selector.addEventListener('change', (event) => {
 });
 
 const rotatePics = document.getElementById('rotate');
+const bnsText = document.getElementById('bnsText');
+const music = document.getElementById('bns');
 
-function rotateAnimation(){
-  if (rotatePics.classList.contains('rotate')){
-    rotatePics.classList.remove('rotate');
+function musicBNS(){
+  if (music.paused){
+    music.play();
+    bnsText.textContent = 'Playing ⏸';
+    if (!rotatePics.classList.contains('rotate')){
+      rotatePics.classList.add('rotate');
+    }
+    else{
+      rotatePics.style.animationPlayState = 'running';
+    }
   }
 
   else{
-    rotatePics.classList.add('rotate');
+    music.pause();
+    bnsText.textContent = 'Paused ▶';
+    rotatePics.style.animationPlayState = 'paused';
   }
 }
 

@@ -290,6 +290,7 @@ section .firstBounty:hover h2{
   width: 60%;
   justify-self: center;
   justify-content: space-around;
+  cursor: pointer;
 }
 
 .chars:hover{
@@ -334,6 +335,7 @@ section .firstBounty:hover h2{
   width: 60%;
   justify-self: center;
   justify-content: space-around;
+  cursor: pointer;
 }
 
 @media (max-width: 800px) {
@@ -400,21 +402,42 @@ section .firstBounty:hover h2{
   padding: 30px;
   display: block;
   background-color: var(--primary-color);
-   border-radius: 24px;
+  border-radius: 24px;
+  cursor: pointer;
+  color: var(--text-color);
+  margin-top: 80px;
+}
+
+.musicCont h1{
+  color: var(--text-color);
+}
+
+.musicCont:hover{
+  background-color: var(--text-color);
+  transform: translateY(-20px);
+}
+
+.musicCont:hover h1{
+  color: var(--primary-color);
 }
 
 .musicCont .imageCont{
   background-color: var(--secondary-color);
-  width: 200px;
-  height: 200px;
+  width: 80vmin;
+  height: 80vmin;
   border-radius: 50%;
   box-shadow: 10px 10px 10px var(--text-color), inset 10px 10px 10px white;
-  margin: 30px auto;
+  margin: 30px 0;
+}
+
+.musicCont:hover .imageCont{
+  background-color: var(--accent-color);
+  scale: 1.1;
 }
 
 .musicCont img{
-  width: 200px;
-  height: 200px;
+  width: 80vmin;
+  height: 80vmin;
   border-radius: 50%;
 }
 
