@@ -423,8 +423,8 @@ section .firstBounty:hover h2{
 
 .musicCont .imageCont{
   background-color: var(--secondary-color);
-  width: max(70vmin, 400px);
-  height: max(70vmin, 400px);
+  width: max(60vmin, 400px);
+  height: max(60vmin, 400px);
   border-radius: 50%;
   box-shadow: 10px 10px 10px var(--text-color), inset 10px 10px 10px white;
   margin: 30px 0;
@@ -436,8 +436,8 @@ section .firstBounty:hover h2{
 }
 
 .musicCont img{
-  width: max(70vmin, 400px);
-  height: max(70vmin, 400px);
+  width: max(60vmin, 400px);
+  height: max(60vmin, 400px);
   border-radius: 50%;
 }
 
