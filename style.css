@@ -444,3 +444,7 @@ section .firstBounty:hover h2{
 .rotate{
   animation: hoverRotate 3.6s infinite linear;
 }
+
+.rotate:hover{
+  animation-play-state: paused;
+}
