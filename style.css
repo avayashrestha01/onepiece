@@ -377,3 +377,17 @@ section .firstBounty:hover h2{
   height: 200px;
   width: 200px;
 }
+
+.chars:hover img, .ship img:hover{
+  animation: hoverRotate 0.2s linear;
+}
+
+@keyframes hoverRotate{
+  from{
+    rotate: 0deg;
+  }
+
+  to{
+    rotate: 180deg;
+  }
+}
